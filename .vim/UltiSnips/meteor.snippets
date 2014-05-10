@@ -1,0 +1,11 @@
+snippet temp "template(name='')" b
+template(name="$1")
+  $0
+endsnippet
+
+snippet each "each block" !b
+each $1
+  $2
+    ${1/(.*)s/$1/}
+$0
+endsnippet

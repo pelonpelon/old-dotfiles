@@ -1,0 +1,1 @@
+/Users/pelon/.vim/bundle/ultisnips.vim/ftdetect/UltiSnips.vim
