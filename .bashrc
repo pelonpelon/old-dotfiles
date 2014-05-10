@@ -1,4 +1,4 @@
-[ -n "$PS1" ] && source ~/.bash_profile
+. ~/.bash_prompt
 
 function md {
     if [ ! -n "$1" ]; then
