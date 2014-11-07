@@ -38,15 +38,23 @@ Thumbs.db
 
 .sass-cache/
 .idea/
+stats/
+node_modules/
+
 .htaccess*
 codekit-config.json
 config.codekit
-wp/wp-content/uploads/
-wp/wp-config.php
-wp/wp-content/backup*
-stats/
-config.rb
-.settings
 .project.dat
+*.sublime-workspace
+*.sublime-project
 
-
+# wordpress
+######################
+db/
+wp/wp-admin/
+wp/wp-includes/
+wp/wp-content/uploads/
+wp/wp-content/plugins/
+wp/wp-content/upgrade/
+wp/wp-content/backup*
+wp-config.php*
